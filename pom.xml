@@ -1,4 +1,4 @@
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <modelVersion>4.0.0</modelVersion>
 <groupId>com.teste</groupId>
@@ -39,7 +39,7 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 <dependency>
 <groupId>mysql</groupId>
 <artifactId>mysql-connector-java</artifactId>
-<version>8.0.30</version>
+<version>8.0.27</version>
 </dependency>
 </dependencies>
 <build>
@@ -57,7 +57,8 @@ https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle
 <version>3.1.0</version>
 </plugin>
 <!--
- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/defaultbindings.html#Plugin_bindings_for_jar_packaging-->
+ default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/defaultbindings.html#Plugin_bindings_for_jar_packaging
+ -->
 <plugin>
 <artifactId>maven-resources-plugin</artifactId>
 <version>3.0.2</version>
